@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2h</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="r">
+</head>
+<body>
+    <nav>Portfolio</nav>
+    <main>
+        <div class="about">
+            <div class="about-photo"><img src="https://images.unsplash.com/photo-1613420525032-f2019fb9fa22?q=80&w=3165&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+            <div class="about-info">
+                <div><h2>About Me</h2></div>
+                                        <!-- Grafika -->
+                <div class="theme">
+                    <label for="toggle-list-1" class="list-toggle">Grafika</label>
+                    <input type="checkbox" id="toggle-list-1" class="list-checkbox">
+                    <ul class="hidden-list">
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    </ul>
+                </div>
+                                        <!-- Programování -->
+                <div class="theme">
+                    <label for="toggle-list-2" class="list-toggle">Programování</label>
+                    <input type="checkbox" id="toggle-list-2" class="list-checkbox">
+                    <ul class="hidden-list">
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    </ul>
+                </div>
+                                        <!-- Kroužky -->
+                <div class="theme">
+                    <label for="toggle-list-3" class="list-toggle">Kroužky</label>
+                    <input type="checkbox" id="toggle-list-3" class="list-checkbox">
+                    <ul class="hidden-list">
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    </ul>
+                </div>
+                                <!-- Leader skills -->
+                <div class="theme">
+                    <label for="toggle-list-4" class="list-toggle">Leader skills</label>
+                    <input type="checkbox" id="toggle-list-4" class="list-checkbox">
+                    <ul class="hidden-list">
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    </ul>
+                </div>
+                                <!-- Různé -->
+                <div class="theme">
+                    <label for="toggle-list-5" class="list-toggle">Různé</label>
+                    <input type="checkbox" id="toggle-list-5" class="list-checkbox">
+                    <ul class="hidden-list">
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="photo">
+            <div><img src="https://plus.unsplash.com/premium_photo-1684444605542-93725082d214?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bm90ZXN8ZW58MHx8MHx8fDA%3D" alt=""></div>
+            <div><img src="https://images.unsplash.com/photo-1640955014216-75201056c829?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGN8ZW58MHx8MHx8fDA%3D" alt=""></div>
+            <div><img src="https://images.unsplash.com/photo-1590858078095-24c472408dfe?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBjfGVufDB8fDB8fHww" alt=""></div>
+            <div><img src="https://plus.unsplash.com/premium_photo-1671439543718-9e4d009827e8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fHBjfGVufDB8fDB8fHww" alt=""></div>
+            <div><img src="https://images.unsplash.com/photo-1606045882515-c8a4d190e08e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHBjfGVufDB8fDB8fHww" alt=""></div>
+            <div><img src="https://plus.unsplash.com/premium_photo-1678112179122-50605ebc5697?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHBjfGVufDB8fDB8fHww" alt=""></div>
+            <div><img src="https://images.unsplash.com/photo-1721475246144-98e4f01f3a6c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHBjfGVufDB8fDB8fHww" alt=""></div>
+            <div><img src="https://images.unsplash.com/photo-1733235449374-9372349492a1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fHBjfGVufDB8fDB8fHww" alt=""></div>
+        </div>
+    </main>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const checkboxes = document.querySelectorAll(".about-info .list-checkbox");
+    
+            checkboxes.forEach((checkbox) => {
+                checkbox.addEventListener("change", () => {
+                    const targetList = checkbox.nextElementSibling; // UL seznam vedle checkboxu
+    
+                    if (checkbox.checked) {
+                        // Zavřít všechny ostatní
+                        checkboxes.forEach((otherCheckbox) => {
+                            const otherList = otherCheckbox.nextElementSibling;
+                            if (otherCheckbox !== checkbox) {
+                                otherCheckbox.checked = false;
+                                if (otherList && otherList.classList.contains("hidden-list")) {
+                                    otherList.style.maxHeight = "0px";
+                                }
+                            }
+                        });
+    
+                        // Otevřít aktuální
+                        if (targetList && targetList.classList.contains("hidden-list")) {
+                            targetList.style.maxHeight = `${targetList.scrollHeight}px`;
+                        }
+                    } else {
+                        // Zavřít aktuální
+                        if (targetList && targetList.classList.contains("hidden-list")) {
+                            targetList.style.maxHeight = "0px";
+                        }
+                    }
+                });
+            });
+    
+            // Nastavit počáteční styly pro plynulou animaci
+            const hiddenLists = document.querySelectorAll(".hidden-list");
+            hiddenLists.forEach((list) => {
+                list.style.transition = "max-height 0.3s ease";
+                list.style.overflow = "hidden";
+                list.style.maxHeight = "0px";
+            });
+        });
+    </script>
+    
+</body>
+</html>
